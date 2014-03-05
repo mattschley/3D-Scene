@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href = "SchleyMatthew_ProjB.css" rel = "stylesheet"></link>
+    <title>ProjB</title>
+  </head>
+
+  <body  onload="main()"  >
+    <div>
+      <div style="float:left">
+    <canvas id="webgl" width="550" height="550">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <p>
+    <button onclick="reload()">RESET</button>  
+    <button onclick="help()">HELP</button>  
+    
+    </p>
+  </div>
+  <div style="float:right">
+  <p id="dir">DIRECTIONS:<br>Use up and down arrows to go forward and backwards.<br>Use right and left arrow to move right and left<br>Use f to look up and d to look down<br>Use r and l to look right and left.<br>Use t to fly up and y to dive down.<br>Use the space bar to look at origin!<br>Use c to adjust camera (only works once)<br>note that up and down arrow keys change directions at origin.
+  </p>
+  <p id="notes">NOTES:<br>Camera only changes one time, I could not get it to go back and forth.<br> Axis is not drawn.<br>Jointed shape not drawn.<p>
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-mod.js"></script>
+    <script src="lib/cuon-matrix-quat.js"></script>
+    <script src="SchleyMatthew_ProjB.js"></script>
+  </div>
+</div>
+  </body>
+</html>

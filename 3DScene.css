@@ -1,0 +1,17 @@
+button {
+background-color: #D4D4D4;
+    color: #393939;
+    border-radius: 10px;
+    border: 1px solid rgba(57, 57, 57, 0.8);
+
+}
+
+#dir {
+font-family: HELVETICA;
+background-color: #D4D4D4;
+}
+
+#notes {
+font-family: HELVETICA;
+background-color: #FFFF00;
+}
